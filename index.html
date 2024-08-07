@@ -1,0 +1,2883 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- style link  -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- remix  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- nav-bar  -->
+
+   <div class="nav-back">
+    <div class="container navii">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid ">
+                <a class="navbar-brand text-white" href="#"><strong class="fs-3">
+                    BINIOG
+                </strong></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse p-1" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active text-white " aria-current="page"
+                            href="index.html"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item me-3">
+                        
+                        <a class="nav-link text-white" href="About.html"><strong>About</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="investment.html"><strong>Investment</strong></a>
+                    </li>
+                    <li class="nav-item dropdown me-3">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <strong> Pages</strong>
+                        </a>
+                        <ul class="dropdown-menu text-white bg-white">
+                            <li><a class="dropdown-item" href="investor.html">Investors</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="FAQ.html">FAQ</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="login.html">Login</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Register.html">Register</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Forget.html">Forget Password</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">404</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-3">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <strong> Blog</strong>
+                        </a>
+                        <ul class="dropdown-menu  bg-white">
+                            <li><a class="dropdown-item" href="Blog.html">Blog Grid</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="BlogwithSidebar.html">Blog with Sidebar</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="BlogDetails.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-white" href="Contact.html"><strong>Contact</strong></a>
+                    </li>
+                    <li class="nav-item ">
+
+                        <a href="login.html" class="btn bg-dark text-white rounded-pill w-100">Login</a>
+                      
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+   </div>
+
+    <!-- heading  -->
+    <div class="nav-background heading-margin-buttom">
+        <div class="container ">
+            <div class="row  ">
+                <div class="col-12 col-md-12 col-lg-6  align-self-center mt-5">
+                    <div class="">
+                        <div>
+                            <strong class="heading-heading text-white lh-1">
+                                100% Secure <br>Investment Plan
+                            </strong>
+                            <p class="text-white mt-4 fs-5">
+                                Quality control of your data including read length distribution and uniformity
+                                assessment.
+                            </p>
+                        </div>
+                        <div class="input-group heading-email mt-5 position-relative">
+
+                            <input type="text" class=" rounded-pill p-2 bg-dark heading-input text-white"
+                                placeholder=" Enter your email" aria-label="Input group example"
+                                aria-describedby="btnGroupAddon">
+                            <button class="btn submit-btn rounded-pill" type="submit">Start Trial</button>
+                            <!-- <button type="submit" class="btn submit-btn rounded-pill"></button> -->
+
+                            <span class="bg-dark rounded-circle play-btn text-center">
+                               <a href="#" class="text-decoration-none"> <i class="ri-play-fill text-white fs-2"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 mt-5">
+                    <div class="heading-right-image text-center">
+                        <img src="./image/iso-hero.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cards  -->
+
+    <div class="container">
+        <div class="col">
+            <div class="row card-margin-top">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="text-center card-1 p-3 ">
+                        <div class="mt-4">
+                            <span class="card-1-background rounded-circle p-4">
+                                <i class="ri-team-line fs-3 text-white "></i>
+                            </span>
+                            <div>
+                                <div class="mt-4">
+                                    <strong class="fs-1 text-white ">
+                                        73,234
+                                    </strong>
+                                </div>
+                                <div class="mt-2">
+                                    <strong class="fs-3 text-white ">
+                                        Total Members
+                                    </strong>
+                                </div>
+                                <div class="text-white mt-2">
+                                    Clarinet accustomed. Would legs of <br>framework officers. We've to morning <br>
+                                    like a contracting
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="text-center card-1 p-3">
+                        <div class="mt-4">
+                            <span class="card-1-background rounded-circle p-4">
+                                <i class="ri-team-line fs-3 text-white"></i>
+                            </span>
+                            <div>
+                                <div class="mt-4">
+                                    <strong class="fs-1 text-white ">
+                                        73,234
+                                    </strong>
+                                </div>
+                                <div class="mt-2">
+                                    <strong class="fs-3 text-white ">
+                                        Total Members
+                                    </strong>
+                                </div>
+                                <div class="text-white mt-2">
+                                    Clarinet accustomed. Would legs of <br>framework officers. We've to morning <br>
+                                    like a contracting
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="text-center card-1 p-3">
+                        <div class="mt-4">
+                            <span class="card-1-background rounded-circle p-4">
+                                <i class="ri-team-line fs-3 text-white"></i>
+                            </span>
+                            <div>
+                                <div class="mt-4">
+                                    <strong class="fs-1 text-white ">
+                                        73,234
+                                    </strong>
+                                </div>
+                                <div class="mt-2">
+                                    <strong class="fs-3 text-white ">
+                                        Total Members
+                                    </strong>
+                                </div>
+                                <div class="text-white mt-2">
+                                    Clarinet accustomed. Would legs of <br>framework officers. We've to morning <br>
+                                    like a contracting
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about  -->
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col text-center mt-5">
+                <div>
+                    <div>
+                        <strong class="fs-3 text-white">
+                            About Us
+                        </strong>
+                    </div>
+                    <div class="text-white mt-2">
+                        We use the latest technologies and tools in order to create a better code that not only works 
+                         great,but it is easy easy to work with too.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about-part-2  -->
+
+    <div class="container ">
+        <div class="row mt-5 pb-5">
+            <div class="col-12 col-md-12 col-lg-6 text-center ">
+                <div class="about-image">
+                    <img src="./image/about.png" alt="about">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 text-white  mt-3">
+
+                <div>
+                    <div>
+                        <div>
+                            <strong class="fs-4 text-white">
+                                A faster way to do just about anything
+                            </strong>
+                        </div>
+                        <div class="mt-2">
+                            Clarinet accustomed. Would legs of framework officers. We've to morning like a contracting
+                            him, the the to said in need gradually wellfeigned.
+                        </div>
+                    </div>
+
+                    <div class="mt-4 d-md-flex d-lg-flex ">
+                        <div class="about-part-2-icon rounded-circle  fs-2 me-3 text-center ">
+                           <div class="about-incon h-100">
+                            <i class="ri-bank-line text-white "></i>
+                           </div>
+                        </div>
+                        <div>
+                            <div>
+                                <strong>
+                                    Licensed & Certified
+                                </strong>
+                            </div>
+                            <div>
+                                May moment. Ever a proposal, texts time, place end and <br>heard assistant confidence
+                                instead designer
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 d-md-flex d-lg-flex">
+                        <div class="about-part-2-icon rounded-circle  fs-2 me-3 text-center">
+                            <div class="about-incon h-100">
+                                <i class="ri-bank-line text-white "></i>
+                               </div>
+                        </div>
+                        <div>
+                            <div>
+                                <strong>
+
+                                    Saving & Investments
+                                </strong>
+                            </div>
+                            <div>
+                                May moment. Ever a proposal, texts time, place end and <br>heard assistant confidence
+                                instead designer
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 d-md-flex d-lg-flex">
+                        <div class="about-part-2-icon rounded-circle  fs-2 me-3 text-center">
+                            <div class="about-incon h-100">
+                                <i class="ri-bank-line text-white "></i>
+                               </div>
+                        </div>
+                        <div>
+                            <div>
+                                <strong>
+                                    100% Secure Investments
+                                </strong>
+                            </div>
+                            <div>
+                                May moment. Ever a proposal, texts time, place end and <br>heard assistant confidence
+                                instead designer
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- why choose us -->
+
+    <div class="why-choose-back pb-5">
+        <div class="container">
+            <div class="row text-white text-center ">
+                <div class="col why-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Why Choose us
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works great, but it is easy easy to work with too.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- why-part-2  -->
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col text-white">
+
+                    <ul class="nav d-flex justify-content-center why-icon text-center" id="myTab" role="tablist">
+
+                        <li class="nav-item text-center ms-3" role="presentation">
+                          <button class="nav-link active rounded-circle why-part-back" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="ri-money-rupee-circle-line text-white fs-2"></i></button>
+                          <div class="mt-1 mb-3">
+                            <strong class="fs-6">
+                                Profit
+                            </strong>
+                        </div>
+                        </li>
+
+                        <li class="nav-item ms-3" role="presentation">
+                          <button class="nav-link rounded-circle why-part-back" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="ri-cash-line text-white fs-2"></i></button>
+                          <div class="mt-1 mb-3">
+                            <strong class="fs-6">
+                                Withdraw
+                            </strong>
+                        </div>
+                        </li>
+
+                        <li class="nav-item ms-3" role="presentation">
+                          <button class="nav-link rounded-circle why-part-back" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+                            <i class="ri-currency-fill text-white fs-2"></i></button>
+                          <div class="mt-1 mb-3 text-center">
+                            <strong class="fs-6">
+                                Currency
+                            </strong>
+                        </div>
+                        </li>
+
+                        <li class="nav-item ms-3" role="presentation">
+                          <button class="nav-link rounded-circle why-part-back" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" ><i
+                            class="ri-contacts-line text-white fs-2"></i></button>
+                            <div class="mt-1 mb-3 text-center">
+                                <strong class="fs-6">
+                                    Support
+                                </strong>
+                            </div>
+                        </li>
+
+                      </ul>
+
+                      <div class="tab-content why-part-border mt-5 " id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class=" row d-flex">
+                            <div class="col-12 col-md-4 col-lg-4 why-part-image-1 p-3">
+                                <img src="./image/profit.png" alt="">
+                            </div>
+                            <div class=" col-12 col-md-8 col-lg-8 p-5  mt-5">
+                                <div>
+                                    <strong class="fs-2 mt-3">
+                                        Fast Profit
+                                    </strong>
+                                </div>
+                                <div class=" mt-4">
+                                    Unpacked reserved sir offering bed judgment may and quitting speaking. Is do be
+                                    improved raptures offering required in replying raillery. Stairs ladies friend
+                                    by in mutual an no. Mr hence chief he cause. Whole no doors on hoped. Mile tell
+                                    if help they ye full name.
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <div class="row d-flex">
+                                <div class="col-12 col-md-4 col-lg-4 why-part-image-1 p-3">
+                                    <img src="./image/withdraw.png" alt="" class="">
+                                </div>
+                                <div class=" col-12 col-md-8 col-lg-8 p-5  mt-5">
+                                    <div>
+                                        <strong class="fs-3 mt-3">
+                                            Instant Withdraw
+                                        </strong>
+                                    </div>
+                                    <div class="mt-4">
+                                        Unpacked reserved sir offering bed judgment may and quitting speaking. Is do be
+                                        improved raptures offering required in replying raillery. Stairs ladies friend
+                                        by in mutual an no. Mr hence chief he cause. Whole no doors on hoped. Mile tell
+                                        if help they ye full name.
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"> <div class="row d-flex">
+                            <div class="col-12 col-md-4 col-lg-4 why-part-image-1 p-3">
+                                <img src="./image/currency.png" alt="">
+                            </div>
+                            <div class=" col-12 col-md-8 col-lg-8 p-5  mt-5">
+                                <div>
+                                    <strong class="fs-3 mt-3">
+                                        Multi-Currency Support
+                                    </strong>
+                                </div>
+                                <div class="mt-4">
+                                    Unpacked reserved sir offering bed judgment may and quitting speaking. Is do be
+                                    improved raptures offering required in replying raillery. Stairs ladies friend
+                                    by in mutual an no. Mr hence chief he cause. Whole no doors on hoped. Mile tell
+                                    if help they ye full name.
+                                </div>
+                            </div>
+                        </div></div>
+
+                        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0"><div class=" row d-flex">
+                            <div class="col-12 col-md-4 col-lg-4 why-part-image-1 p-3">
+                                <img src="./image/support.png" alt="">
+                            </div>
+                            <div class=" col-12 col-md-8 col-lg-8 p-5  mt-5">
+                                <div>
+                                    <strong class="fs-3 mt-3">
+
+                                        24/7 Customer Support
+                                    </strong>
+                                </div>
+                                <div class="mt-4">
+                                    Unpacked reserved sir offering bed judgment may and quitting speaking. Is do be
+                                    improved raptures offering required in replying raillery. Stairs ladies friend
+                                    by in mutual an no. Mr hence chief he cause. Whole no doors on hoped. Mile tell
+                                    if help they ye full name.
+                                </div>
+                            </div>
+                        </div></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Investment plans-->
+
+    <div class="pb-5">
+        <div class="container">
+            <div class="row text-white text-center ">
+                <div class="col invest-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Investment Plans
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works great, but it is easy easy to work with too.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- investment part  daily weekly-->
+
+         
+    
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col text-white">
+                    <ul class="nav  d-flex justify-content-center" id="myTabtwo" role="tablist">
+
+                        <li class="nav-item text-center me-4" role="presentation">
+                          <button class="nav-link active rounded-pill invest-part-back" id="home-tabtwo" data-bs-toggle="tab" data-bs-target="#home-tab-panetwo" type="button" role="tab" aria-controls="home-tab-panetwo" aria-selected="true">  <strong class="fs-5 text-white">
+                            Daily
+                        </strong>
+                       </button>
+                        </li>
+
+                        <li class="nav-item " role="presentation">
+                          <button class="nav-link rounded-pill invest-part-back" id="profile-tabtwo" data-bs-toggle="tab" data-bs-target="#profile-tab-panetwo" type="button" role="tab" aria-controls="profile-tab-panetwo" aria-selected="false">  <strong class="fs-5 text-white">
+                            Weekly
+                        </strong>
+                        </button>
+                        </li>
+
+                      
+                      </ul>
+
+                      <div class="tab-content mt-5" id="myTabContenttwo">
+                        <div class="tab-pane fade show active" id="home-tab-panetwo" role="tabpanel" aria-labelledby="home-tabtwo" tabindex="0">
+                            <div class="container">
+                                <div class="col">
+                                    <div class="row ">
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 10 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                100%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $100
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $1000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 20 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                200%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $200
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $2000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6  col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3 mt-md-3 mt-lg-0">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 30 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                300%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $300
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $3000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="profile-tab-panetwo" role="tabpanel" aria-labelledby="profile-tabtwo" tabindex="0">
+                            <div class="container">
+                                <div class="col">
+                                    <div class="row ">
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 10 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                100%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $100
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $1000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 20 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                200%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $200
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $2000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3 mt-md-3 mt-lg-0">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 30 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                300%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $300
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $3000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- how does  -->
+    <div class="how-back pb-5">
+
+        <div class="container">
+            <div class="row text-white text-center ">
+                <div class="col invest-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                How does it works
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works great, but it is easy easy to work with too.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- how-part-2  -->
+        <div class="container how-part-margin-top">
+            <div class="col ">
+                <div class="row pt-2">
+                    <div class="col-12 col-md-4 col-lg-4 smart-margin-top">
+                        <div class="text-center card-111 p-4">
+                            <div class="mt-5">
+                                <span class="card-111-background rounded-circle p-5">
+                                    <i class="ri-group-line fs-1 text-white"></i>
+
+                                </span>
+                                <div>
+
+                                    <div class="mt-5">
+                                        <strong class="fs-5 text-white ">
+                                            Create Account
+                                        </strong>
+                                    </div>
+                                    <div class="text-white mt-3 pb-3">
+                                        Clarinet accustomed. Would legs of framework officers. We've to morning
+                                        like a contracting
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 smart-margin-top">
+                        <div class="text-center card-111 p-4">
+                            <div class="mt-5">
+                                <span class="card-111-background rounded-circle p-5">
+                                    <i class="ri-calendar-line fs-1 text-white"></i>
+
+                                </span>
+                                <div>
+
+                                    <div class="mt-5">
+                                        <strong class="fs-5 text-white ">
+                                            Start Investing
+                                        </strong>
+                                    </div>
+                                    <div class="text-white mt-3 pb-3">
+                                        Clarinet accustomed. Would legs of framework officers. We've to morning
+                                        like a contracting
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 smart-margin-top">
+                        <div class="text-center card-111 p-4">
+                            <div class="mt-5">
+                                <span class="card-111-background rounded-circle p-5">
+                                    <i class="ri-megaphone-line fs-1 text-white"></i>
+
+                                </span>
+                                <div>
+
+                                    <div class="mt-5">
+                                        <strong class="fs-5 text-white ">
+                                            Get Profit
+                                        </strong>
+                                    </div>
+                                    <div class="text-white mt-3 pb-3">
+                                        Clarinet accustomed. Would legs of framework officers. We've to morning 
+                                        like a contracting
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- start investment  -->
+ 
+    <div class="why-choose-back">
+        <div class="container">
+            <div class="row text-white text-center ">
+                <div class="col invest-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Start Investment
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works
+                            <br>great, but it is easy easy to work with too.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- smart-part-2  -->
+
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col mt-5">
+
+                    <ul class="nav d-flex justify-content-center align-content-center" id="myTabtable" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active smart-btn rounded-pill me-4" id="home-tabtable" data-bs-toggle="tab" data-bs-target="#home-tab-panetable" type="button" role="tab" aria-controls="home-tab-panetable" aria-selected="true"><strong class="text-white fs-5 p-2">All Bets</strong></button>
+                        </li>
+                        <li class="nav-item " role="presentation">
+                          <button class="nav-link smart-btn rounded-pill" id="profile-tabtable" data-bs-toggle="tab" data-bs-target="#profile-tab-panetable" type="button" role="tab" aria-controls="profile-tab-panetable" aria-selected="false"><strong class="p-2 text-white fs-5">MyBets</strong></button>
+                        </li>
+                       
+                      </ul>
+                      <div class="tab-content mt-5" id="myTabContenttable">
+                        <div class="tab-pane fade show active " id="home-tab-panetable" role="tabpanel" aria-labelledby="home-tabtable" tabindex="0">
+                            <table class="table  table-hover table-dark">
+
+                                <thead>
+                                    <tr>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">DATE</th>
+                                        <th scope="col">AMOUNT</th>
+                                        <th scope="col">CURRENCY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade " id="profile-tab-panetable" role="tabpanel" aria-labelledby="profile-tabtable" tabindex="0">
+                            <table class="table table-dark table-hover text-white">
+
+                                <thead>
+                                    <tr>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">DATE</th>
+                                        <th scope="col">AMOUNT</th>
+                                        <th scope="col">CURRENCY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- create  -->
+    <div class="create-back p-5">
+
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="">
+                        <strong class="fs-1 text-white">
+                            Create better experiences<br>with Biniog
+                        </strong>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 align-items-center justify-content-end d-lg-flex ">
+                    <button type="button" class="btn btn-light create-btn rounded-pill ">
+                        Get started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Latest Transaction -->
+    <div class="why-choose-back pb-5">
+        <div class="container">
+            <div class="row text-white text-center ">
+                <div class="col Latest-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Latest Transaction
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works
+                            <br>great, but it is easy easy to work with too.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- latest-part-2  -->
+
+
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col mt-5">
+
+                    <ul class="nav d-flex justify-content-center align-content-center" id="tablemyTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active smart-btn rounded-pill me-4" id="tablehome-tab" data-bs-toggle="tab" data-bs-target="#tablehome-tab-pane" type="button" role="tab" aria-controls="tablehome-tab-pane" aria-selected="true"><strong
+                            class="text-white fs-5 p-2">Daily</strong></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link smart-btn rounded-pill" id="tableprofile-tab" data-bs-toggle="tab" data-bs-target="#tableprofile-tab-pane" type="button" role="tab" aria-controls="tableprofile-tab-pane" aria-selected="false"><strong class="p-2 text-white fs-5">Monthly</strong></button>
+                        </li>
+                      
+                      </ul>
+                      <div class="tab-content mt-5" id="tablemyTabContent">
+                        <div class="tab-pane fade show active  table-latest overflow-auto" id="tablehome-tab-pane" role="tabpanel" aria-labelledby="tablehome-tab" tabindex="0">
+                            <table class="table table-dark table-hover text-white ">
+
+                                <thead>
+                                    <tr>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">PRICE</th>
+                                        <th scope="col">AMOUNT</th>
+                                        <th scope="col">DEPOSITED</th>
+                                        <th scope="col">CURRENCY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Jim Adams
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Willie Barton
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Kim Mccoy
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p4.png" alt="" class="start-invest-table">
+                                            Sheryl Tran
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Toby Davis
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Glenn lue
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Isreal Vandy
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade overflow-auto" id="tableprofile-tab-pane" role="tabpanel" aria-labelledby="tableprofile-tab" tabindex="0">
+                            <table class="table table-dark table-hover text-white ">
+
+                                <thead>
+                                    <tr>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">PRICE</th>
+                                        <th scope="col">AMOUNT</th>
+                                        <th scope="col">DEPOSITED</th>
+                                        <th scope="col">CURRENCY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Jim Adams
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Willie Barton
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Kim Mccoy
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p4.png" alt="" class="start-invest-table">
+                                            Sheryl Tran
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Toby Davis
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Glenn lue
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Isreal Vandy
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- our bigest  -->
+        <div class="container">
+            <div class="row">
+                <div class="col text-white text-center our-bigest-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Our Bigest Advantage
+                            </strong>
+                        </div>
+                        <div class="mt-4">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works great,but it is easy easy to work with too.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- our-part-2  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 text-white mt-5 p-2">
+                    <div class="mt-5 ms-2">
+                        <div class="mt-5">
+                            <strong class="fs-3">
+                                We are Offering 100% Guarantee.
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            <div>
+                                Consequuntur similique illum magni! Officiis minima voluptates, similique inventore
+                                accusamus veritatis earum nostrum.
+                            </div>
+                            <div class="mt-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium temporibus, ad
+                                maxime animi aspernatur enim inventore nostrum ipsa, consequuntur similique illum magni!
+                                Officiis minima voluptates, similique inventore accusamus veritatis earum?
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6  mt-5 ">
+
+                    <div class="our-image text-md-center">
+                        <img src="./image/advantage.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- our top 10 inventors  -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-white text-center our-top-inventors-margin-top">
+                <div>
+                    <div>
+                        <strong class="fs-2">
+                            Our Top 10 Inventors
+                        </strong>
+                    </div>
+                    <div class="mt-4">
+                        We use the latest technologies and tools in order to create a better code that not only<br>works great,but it is easy easy to work with too.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner mt-5 ">
+                        <div class="carousel-item active ">
+                            <div class="row text-center">
+                                <div class=" col-md-6 col-lg-3 ">
+                                    <div class="text-center top-ten-inventors text-white  our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img ">
+                                            <img src="./image/img1.jpg" class="" alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                        </div>
+                                        <div class="mt-3">
+                                            
+                                            <span class="me-2">
+                                               <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                            </span>
+
+                                            <span class="me-2">
+                                                <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                            </span>
+
+                                            <span class="me-2">
+                                                <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                            </span>
+
+                                            <span class="me-2">
+                                                <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white  our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img2.jpg" class="" alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white  our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img3.jpg" class=" " alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white  our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img4.jpg" class=" " alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class=" col-md-6 col-lg-3 ">
+                                    <div class="text-center top-ten-inventors text-white our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img4.jpg" class="" alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-6 col-lg-3 ">
+                                    <div class="text-center top-ten-inventors text-white our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img1.jpg" class=" " alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white  our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img2.jpg" class=" " alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img3.jpg" class=" " alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class=" col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img3.jpg" class=" " alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img4.jpg" class=" " alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white  our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img1.jpg" class=""  alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="text-center top-ten-inventors text-white  our-top-caro-card mt-sm-5">
+                                        <div class="our-top-caro-img">
+                                            <img src="./image/img2.jpg" class=" " alt="...">
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>
+                                                Jameson
+                                            </strong>
+                                            <div>
+                                                $54,4894,974
+                                            </div>
+                                            <div class="mt-3">
+                                            
+                                                <span class="me-2">
+                                                   <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                                                </span>
+    
+                                                <span class="me-2">
+                                                    <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+        <!-- what users says  -->
+
+  <div class="what-back pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-white text-center what-margin-top">
+                <div>
+                    <div>
+                        <strong class="fs-2">
+                            What Users Says
+                        </strong>
+                    </div>
+                    <div class="mt-4">
+                        We use the latest technologies and tools in order to create a better code that not<br>only works great, but it is easy easy to work with too.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleAutoplaying5" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner mt-5 ">
+                        <div class="carousel-item active ">
+                          <div class="row">
+                            <div class="col-12 col-lg-4 col-md-6 ">
+                              <div class="what-card p-4 mt-2">
+                                <div>
+                                <i class="ri-star-fill text-warning"></i>
+                                 <i class="ri-star-fill text-warning"></i>
+                                 <i class="ri-star-fill text-warning"></i>
+                                 <i class="ri-star-fill text-warning"></i>
+                                 <i class="ri-star-fill text-warning"></i>
+                                </div>
+                                <div class="text-white mt-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                </div>
+                                <div class="d-flex mt-4">
+                                    <span class="what-image-1 me-3">
+                                        <img src="./image/p1.png " alt="#">
+                                    </span>
+                                    <span class="mt-2 text-white">
+                                     <div>
+                                       <strong>
+                                        Austin Bishop
+                                       </strong>
+                                     </div>
+                                     <div>
+                                       <strong>
+                                        CEO at ABC
+                                       </strong>
+                                     </div>
+                                    </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6 col-12 col-lg-4 ">
+                                <div class="what-card p-4 mt-2">
+                                    <div>
+                                    <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                    </div>
+                                    <div class="text-white mt-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                    </div>
+                                    <div class="d-flex mt-4">
+                                        <span class="what-image-1 me-3">
+                                            <img src="./image/p1.png " alt="#">
+                                        </span>
+                                        <span class="mt-2 text-white">
+                                         <div>
+                                           <strong>
+                                            Austin Bishop
+                                           </strong>
+                                         </div>
+                                         <div>
+                                           <strong>
+                                            CEO at ABC
+                                           </strong>
+                                         </div>
+                                        </span>
+                                    </div>
+                                  </div> 
+                            </div>
+                            <div class="col-md-6 col-12 col-lg-4 ">
+                                <div class="what-card p-4 mt-2">
+                                    <div>
+                                    <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                    </div>
+                                    <div class="text-white mt-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                    </div>
+                                    <div class="d-flex mt-4">
+                                        <span class="what-image-1 me-3">
+                                            <img src="./image/p1.png " alt="#">
+                                        </span>
+                                        <span class="mt-2 text-white">
+                                         <div>
+                                           <strong>
+                                            Austin Bishop
+                                           </strong>
+                                         </div>
+                                         <div>
+                                           <strong>
+                                            CEO at ABC
+                                           </strong>
+                                         </div>
+                                        </span>
+                                    </div>
+                                  </div> 
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md-6 col-12 col-lg-4 " >
+                                  <div class="what-card p-4 mt-2">
+                                    <div>
+                                    <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                    </div>
+                                    <div class="text-white mt-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                    </div>
+                                    <div class="d-flex mt-4">
+                                        <span class="what-image-1 me-3">
+                                            <img src="./image/p1.png " alt="#">
+                                        </span>
+                                        <span class="mt-2 text-white">
+                                         <div>
+                                           <strong>
+                                            Austin Bishop
+                                           </strong>
+                                         </div>
+                                         <div>
+                                           <strong>
+                                            CEO at ABC
+                                           </strong>
+                                         </div>
+                                        </span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12 col-lg-4 ">
+                                    <div class="what-card p-4 mt-2">
+                                        <div>
+                                        <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                        </div>
+                                        <div class="text-white mt-3">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <span class="what-image-1 me-3">
+                                                <img src="./image/p1.png " alt="#">
+                                            </span>
+                                            <span class="mt-2 text-white">
+                                             <div>
+                                               <strong>
+                                                Austin Bishop
+                                               </strong>
+                                             </div>
+                                             <div>
+                                               <strong>
+                                                CEO at ABC
+                                               </strong>
+                                             </div>
+                                            </span>
+                                        </div>
+                                      </div> 
+                                </div>
+                                <div class="col-md-6 col-12 col-lg-4 ">
+                                    <div class="what-card p-4 mt-2">
+                                        <div>
+                                        <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                        </div>
+                                        <div class="text-white mt-3">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <span class="what-image-1 me-3">
+                                                <img src="./image/p1.png " alt="#">
+                                            </span>
+                                            <span class="mt-2 text-white">
+                                             <div>
+                                               <strong>
+                                                Austin Bishop
+                                               </strong>
+                                             </div>
+                                             <div>
+                                               <strong>
+                                                CEO at ABC
+                                               </strong>
+                                             </div>
+                                            </span>
+                                        </div>
+                                      </div> 
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md-6 col-12 col-lg-4 ">
+                                  <div class="what-card p-4 mt-2">
+                                    <div>
+                                    <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                     <i class="ri-star-fill text-warning"></i>
+                                    </div>
+                                    <div class="text-white mt-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                    </div>
+                                    <div class="d-flex mt-4">
+                                        <span class="what-image-1 me-3">
+                                            <img src="./image/p1.png " alt="#">
+                                        </span>
+                                        <span class="mt-2 text-white">
+                                         <div>
+                                           <strong>
+                                            Austin Bishop
+                                           </strong>
+                                         </div>
+                                         <div>
+                                           <strong>
+                                            CEO at ABC
+                                           </strong>
+                                         </div>
+                                        </span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12 col-lg-4 ">
+                                    <div class="what-card p-4 mt-2">
+                                        <div>
+                                        <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                        </div>
+                                        <div class="text-white mt-3">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <span class="what-image-1 me-3">
+                                                <img src="./image/p1.png " alt="#">
+                                            </span>
+                                            <span class="mt-2 text-white">
+                                             <div>
+                                               <strong>
+                                                Austin Bishop
+                                               </strong>
+                                             </div>
+                                             <div>
+                                               <strong>
+                                                CEO at ABC
+                                               </strong>
+                                             </div>
+                                            </span>
+                                        </div>
+                                      </div> 
+                                </div>
+                                <div class="col-md-6 col-12 col-lg-4 ">
+                                    <div class="what-card p-4 mt-2">
+                                        <div>
+                                        <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                         <i class="ri-star-fill text-warning"></i>
+                                        </div>
+                                        <div class="text-white mt-3">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt vel accusantium quis eligendi repellat dolore magnam sapiente nisi quisquam.
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <span class="what-image-1 me-3">
+                                                <img src="./image/p1.png " alt="#">
+                                            </span>
+                                            <span class="mt-2 text-white">
+                                             <div>
+                                               <strong>
+                                                Austin Bishop
+                                               </strong>
+                                             </div>
+                                             <div>
+                                               <strong>
+                                                CEO at ABC
+                                               </strong>
+                                             </div>
+                                            </span>
+                                        </div>
+                                      </div> 
+                                </div>
+                              </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+  </div>
+
+
+        <!-- tax and profit  -->
+        <div class="container">
+            <div class="row">
+                <div class="col text-white text-center Tax-Calculator-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Tax & Profit Calculator
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not<br>only works great,but it is easy easy to work with too.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 pb-5">
+            <div class="row text-white mt-5 ps-4 pe-5 pb-5">
+                <div class="col-12 col-md-12 col-lg-6 ">
+                    <div class="tax-cal-back-main ">
+                        <div class="tax-cal-back p-2">
+                            <strong class="fs-3 ms-3">
+                                Tax Calculator
+                            </strong>
+                        </div>
+
+                        <div class="row p-4">
+                            <div class="col text-white mt-2">
+                                <div class="">
+                                    <div>
+                                        <strong>
+                                            Your business Area:
+                                        </strong>
+                                    </div>
+                                    <div class="mt-2">
+                                        <div class="mb-3 dropdown text-white">
+                                            <div id="Select" class="form-select  tax-retail-back text-white" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Retail
+                                            </div>
+                                            <ul class="dropdown-menu border-white">
+                                                <li class="border-bottom"><a class="dropdown-item text-white " href="#">Retail</a></li>
+                                                <li class=""><a class="dropdown-item text-white" href="#">All</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" mt-2 ">
+                                    <div>
+                                        <strong>
+                                            Employees Number:
+                                        </strong>
+                                    </div>
+                                    <div class="mt-2">
+                                        <div class="mb-3 dropdown text-white">
+                                            <div id="Select2" class="form-select  tax-retail-back text-white" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                1-7
+                                            </div>
+                                            <ul class="dropdown-menu border-white">
+                                                <li  class="border-bottom"><a class="dropdown-item text-white" href="#">1-7</a></li>
+                                                <li><a class="dropdown-item text-white" href="#">7-15</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col mt-2">
+
+                                <div class="">
+                                    <div>
+                                        <strong>
+                                            Your Country:
+                                        </strong>
+                                    </div>
+                                    <div class="mt-2">
+                                        <div class="mb-3 dropdown">
+                                            <div id="Select3" class="form-select  tax-retail-back text-white" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                USA
+                                            </div>
+                                            <ul class="dropdown-menu border-white">
+                                                <li class="border-bottom"><a class="dropdown-item text-white" href="#">USA</a></li>
+                                                <li><a class="dropdown-item text-white" href="#">All</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-2">
+                                    <div>
+                                        <strong class="text-white">
+                                            Yearly Income:
+                                        </strong>
+                                    </div>
+                                    <div class="mt-2">
+                                        <input class="  tax-yearly  " type="text" placeholder="$50000"
+                                            aria-label="default input example">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <div class="mt-1">
+                                    <div>
+                                        <strong class="text-white">
+                                            Total Payment:
+                                        </strong>
+                                    </div>
+                                    <div class="mt-2">
+                                        <input class=" tax-retail-back" type="text" placeholder="$0"
+                                            aria-label="default input example">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 ">
+
+                    <div class="tax-cal-back-main">
+                        <div class="tax-cal-back p-2">
+                            <strong class="fs-3 ms-3">
+                                Profit Calculator
+                            </strong>
+                        </div>
+
+                        <div class="mt-2 p-4">
+                            <div>
+                                <div>
+                                    <strong class="text-white">
+                                        Enter Amount:
+                                    </strong>
+                                </div>
+                                <div class="mt-2">
+                                    <input class=" profit-back" type="text" placeholder="$100"
+                                        aria-label="default input example">
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <div>
+                                    <strong class="text-white">
+                                        Total Profit:
+                                    </strong>
+                                </div>
+                                <div class="mt-2">
+                                    <input class=" profit-back " type="text" placeholder="$150"
+                                        aria-label="default input example">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-3">
+                                    <strong class="text-white">
+                                        Net Profit:
+                                    </strong>
+                                </div>
+                                <div class="mt-2">
+                                  
+                                    <input class=" profit-back  " type="text" placeholder="$50"
+                                        aria-label="default input example">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FAQ  -->
+
+       <div class="faq-back">
+        <div class="container pt-5 pb-5">
+            <div class="row pt-5">
+                <div class="col-12 col-md-12 col-lg-6 mt-4">
+                  <div>
+                    <div>
+                        <strong class="faq-heading text-white">
+                            Frequently Asked Questions
+                        </strong>
+                    </div>
+                    <div class="text-white mt-3 fs-5 ">
+                        We use the latest technologies and tools in order to create a better code that not only works great, but it is easy easy to work with too.
+                    </div>
+                    <div class="mt-5">
+                        <button type="button" class="btn text-white rounded-pill faq-btn ">Ask Anything</button>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="accordion " id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button text-white faq-accordian-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>
+                                Which license do I need?
+                            </strong>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show faq-accordian-text" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-white faq-accordian-info">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mt-4">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed faq-accordian-btn text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>
+                              How do I get access to a App ?
+                             </strong>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse faq-accordian-text" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-white">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mt-4">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed faq-accordian-btn text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                               <strong>
+                                How do I see previous orders?
+                               </strong>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-white faq-accordian-text">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mt-4">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed faq-accordian-btn text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                 <strong>
+                                    it is refundable?
+                                 </strong>
+                              </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body text-white faq-accordian-text">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor
+                              </div>
+                            </div>
+                          </div>
+                        <!-- <div class="accordion-item mt-4">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed faq-accordian-btn text-white" type="button"  data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                 <strong>
+                                    it is refundable?
+                                 </strong>
+                              </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body text-white faq-accordian-text">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor
+                              </div>
+                            </div>
+                          </div> -->
+                      </div>
+
+                </div>
+            </div>
+        </div>
+       </div>
+
+
+       <!-- latest blog  -->
+       <div class="container">
+        <div class="row mt-5">
+            <div class="col text-white text-center mt-5">
+                <div>
+                    <div>
+                        <strong class="fs-2">
+                            Latest Blog
+                        </strong>
+                    </div>
+                    <div>
+                        We use the latest technologies and tools in order to create a better code that not only works <br> great, but it is easy easy to work with too. 
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="container ">
+        <div class="row mt-2 pb-5">
+            <div class="col mt-4">
+
+                <div id="carouselExampleAutoplayingtwo" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                              <div>
+                                <img src="./image/caro1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="text-white mt-3">
+                                <div>
+                                    <span class="me-4">
+                                        21 Aug,2019
+                                    </span>
+                                    <span>
+                                        By,Admin
+                                    </span>
+                                </div>
+                                <div class="mt-1">
+                                    <strong class="text-white fs-6">
+                                       5 steps to optimize your websites for Milennials
+                                    </strong>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <div>
+                                    <img src="./image/caro2.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                               <div>
+                                <img src="./image/caro3.png" class="d-block w-100" alt="...">
+                               </div>
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro4.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                       
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro1.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro2.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro3.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro4.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro1.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro2.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro3.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 latest-card">
+                                <img src="./image/caro4.png" class="d-block w-100" alt="...">
+                                <div class="text-white mt-3">
+                                    <div>
+                                        <span class="me-4">
+                                            22 Aug,2019
+                                        </span>
+                                        <span>
+                                            By,Admin
+                                        </span>
+                                    </div>
+                                    <div class="mt-1">
+                                        <strong class="text-white fs-6">
+                                           5 steps to optimize your websites for Milennials
+                                        </strong>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+            </div>
+        </div>
+       </div>
+
+       <!-- end-part  -->
+
+      <div class="end">
+        <div class="container">
+            <div class="row text-white end-margin-top">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-4">
+                    <div>
+                        <div>
+                            <strong class="fs-1">
+                                BINIOG
+                            </strong>
+                        </div> 
+                        <div class="mt-3">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nemo error sit voluptatem consectetur
+                            consectetur. Dolor nemo error sit voluptatem consectetur.
+                        </div>
+                       <div class="mt-4">
+                        <div class="input-group mb-3 w-100 h-100">
+                            <input type="text" class=" rounded-pill end-input" placeholder="  Enter Email to Subscribe" aria-label="Enter Email to Subscribe" aria-describedby="basic-addon2">
+                           <a href="#" class="text-decoration-none"> <span class="input-group-text end-telegram rounded-circle text-white position-relative" id="basic-addon2"><i class="ri-send-plane-fill"></i></span></a>
+                          </div>
+
+                          
+                       </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-6 col-xl-4 ">
+                    <div class="account-margin">
+                          <div>
+                            <strong class="fs-4">
+                                Account
+                            </strong>
+                          </div>
+                          <div class="end-dashed mt-2">
+                           <div class="end-profile">
+                            <i class="ri-arrow-right-double-line fs-5"></i>
+                            <span class="fs-5">Profile</span>
+                           </div>
+                          </div>
+                          <div class="end-dashed mt-2">
+                            <div class="end-profile">
+                             <i class="ri-arrow-right-double-line fs-5"></i>
+                             <span class="fs-5">Setting</span>
+                            </div>
+                           </div>
+                           <div class="end-dashed mt-2">
+                            <div class="end-profile">
+                             <i class="ri-arrow-right-double-line fs-5"></i>
+                             <span class="fs-5">Notification</span>
+                            </div>
+                           </div>
+                           <div class="end-dashed mt-2">
+                            <div class="end-profile">
+                             <i class="ri-arrow-right-double-line fs-5"></i>
+                             <span class="fs-5">Billing</span>
+                            </div>
+                           </div>
+                           <div class=" mt-2">
+                            <div class="end-profile">
+                             <i class="ri-arrow-right-double-line fs-5"></i>
+                             <span class="fs-5">Contact</span>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-6 col-xl-4 ">
+                    <div class="account-margin">
+                        <div>
+                          <strong class="fs-4">
+                              Company
+                          </strong>
+                        </div>
+                        <div class="end-dashed mt-2">
+                         <div class="end-profile">
+                          <i class="ri-arrow-right-double-line fs-5"></i>
+                          <span class="fs-5">Terms</span>
+                         </div>
+                        </div>
+                        <div class="end-dashed mt-2">
+                          <div class="end-profile">
+                           <i class="ri-arrow-right-double-line fs-5"></i>
+                           <span class="fs-5">Privacy</span>
+                          </div>
+                         </div>
+                         <div class="end-dashed mt-2">
+                          <div class="end-profile">
+                           <i class="ri-arrow-right-double-line fs-5"></i>
+                           <span class="fs-5">Security</span>
+                          </div>
+                         </div>
+                         <div class="end-dashed mt-2">
+                          <div class="end-profile">
+                           <i class="ri-arrow-right-double-line fs-5"></i>
+                           <span class="fs-5">Support</span>
+                          </div>
+                         </div>
+                         <div class="mt-2">
+                          <div class="end-profile">
+                           <i class="ri-arrow-right-double-line fs-5"></i>
+                           <span class="fs-5">Careers</span>
+                          </div>
+                         </div>
+                  </div>
+                </div>
+            </div>
+           </div>
+      </div>
+
+      <!-- footer  -->
+    <div class="footer-back">
+        <div class="container">
+            <div class="row p-4 ">
+                <div class="col d-lg-flex justify-content-between text-center">
+                    <div class="text-white">
+                        Copyright © 2021. All Rights Reserved By GeniusDevs.
+                    </div>
+                    <div class="footer-icons">
+                        <div class="">
+                                                
+                            <span class="me-2">
+                               <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                            </span>
+    
+                            <span class="me-2">
+                                <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                            </span>
+    
+                            <span class="me-2">
+                                <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                            </span>
+    
+                            <span class="me-2">
+                                <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                            </span>
+                            <span class="me-2">
+                                <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Pinterest"> <i class="ri-pinterest-line fs-5"></i></a>
+                            </span>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+         <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+             const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+         </script>
+</body>
+
+</html>

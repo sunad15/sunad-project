@@ -1,0 +1,1036 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- style link  -->
+    <link rel="stylesheet" href="investment.css">
+
+    <!-- remix  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+<body>
+
+     <!-- nav-bar  -->
+
+     <div class="nav-back">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="index.html"><strong class="fs-3">
+                        BINIOG
+                    </strong></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+    
+                  <div class="collapse navbar-collapse p-1" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active text-white " aria-current="page"
+                                href="index.html"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link text-white" href="About.html"><strong>About</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-3" href="investment.html"><strong>Investment</strong></a>
+                        </li>
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <strong> Pages</strong>
+                            </a>
+                            <ul class="dropdown-menu text-white bg-white">
+                                <li><a class="dropdown-item" href="investor.html">Investors</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="FAQ.html">FAQ</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="login.html">Login</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Register.html">Register</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Forget.html">Forget Password</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">404</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <strong> Blog</strong>
+                            </a>
+                            <ul class="dropdown-menu  bg-white">
+                                <li><a class="dropdown-item" href="Blog.html">Blog Grid</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="BlogwithSidebar.html">Blog with Sidebar</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="BlogDetails.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link text-white" href="Contact.html"><strong>Contact</strong></a>
+                        </li>
+                        <li class="nav-item ">
+    
+                            <a href="login.html" class="btn bg-dark text-white rounded-pill w-100">Login</a>
+                          
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+       </div>
+
+            <!-- location  -->
+   <div class="nav-background">
+    <div class="container back">
+       <div class="pt-3">
+        <div class="pt-5">
+            <strong class="text-white fs-2">
+                Investment
+            </strong>
+        </div>
+        <div class="d-flex mt-3">
+           <div>
+            <i class="ri-home-4-line text-white me-2"></i>
+           </div>
+           <div>
+            <strong class="text-white">
+                Home
+            </strong>
+           </div>
+           <div>
+           <strong>
+            <i class="ri-arrow-right-s-line text-white ms-2"></i>
+           </strong>
+           </div>
+           <div class="text-white">
+           <strong>
+            Investment
+           </strong>
+           </div>
+        </div>
+       </div>
+    </div>
+   </div>
+
+
+      <!-- Investment plans-->
+
+    <div class="pb-5">
+        <div class="container">
+            <div class="row text-white text-center ">
+                <div class="col invest-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Investment Plans
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works great, but it is easy easy to work with too.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- investment part  daily weekly-->
+
+         
+    
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col text-white">
+                    <ul class="nav  d-flex justify-content-center" id="myTabtwo" role="tablist">
+
+                        <li class="nav-item text-center me-4" role="presentation">
+                          <button class="nav-link active rounded-pill invest-part-back" id="home-tabtwo" data-bs-toggle="tab" data-bs-target="#home-tab-panetwo" type="button" role="tab" aria-controls="home-tab-panetwo" aria-selected="true">  <strong class="fs-5 text-white">
+                            Daily
+                        </strong>
+                       </button>
+                        </li>
+
+                        <li class="nav-item " role="presentation">
+                          <button class="nav-link rounded-pill invest-part-back" id="profile-tabtwo" data-bs-toggle="tab" data-bs-target="#profile-tab-panetwo" type="button" role="tab" aria-controls="profile-tab-panetwo" aria-selected="false">  <strong class="fs-5 text-white">
+                            Weekly
+                        </strong>
+                        </button>
+                        </li>
+
+                      
+                      </ul>
+
+                      <div class="tab-content mt-5" id="myTabContenttwo">
+                        <div class="tab-pane fade show active" id="home-tab-panetwo" role="tabpanel" aria-labelledby="home-tabtwo" tabindex="0">
+                            <div class="container">
+                                <div class="col">
+                                    <div class="row ">
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 10 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                100%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $100
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $1000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 20 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                200%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $200
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $2000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6  col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3 mt-md-3 mt-lg-0">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 30 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                300%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $300
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $3000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="profile-tab-panetwo" role="tabpanel" aria-labelledby="profile-tabtwo" tabindex="0">
+                            <div class="container">
+                                <div class="col">
+                                    <div class="row ">
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 10 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                100%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $100
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $1000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 20 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                200%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $200
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $2000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 daily-margin-top">
+                                            <div class="text-center card-10 p-3 mt-md-3 mt-lg-0">
+                                                <div>
+                                                    <div class="p-2">
+                                                        <div class="">
+                                                            <strong class="fs-4 text-white ">
+                                                                After 30 days
+                                                            </strong>
+                                                        </div>
+                                                        <div class="mt-4 invest-card-10 p-3">
+                                                            <strong class="fs-3 text-white ">
+                                                                300%
+                                                            </strong>
+                                                        </div>
+                                                        <div class="text-white mt-4">
+                                                            Minimam Invest : $300
+                                                        </div>
+                                                        <div class="text-white mt-2">
+                                                            Maximam Invest : $3000
+                                                        </div>
+                                                        <div class="w-100 mt-4">
+                                                            <button class="btn deposite-btn rounded-pill text-white "
+                                                                type="submit">Deposite $</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+ 
+    <!-- start investment  -->
+ 
+    <div class="why-choose-back">
+        <div class="container">
+            <div class="row text-white text-center ">
+                <div class="col invest-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Start Investment
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works
+                            <br>great, but it is easy easy to work with too.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- smart-part-2  -->
+
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col mt-5">
+
+                    <ul class="nav d-flex justify-content-center align-content-center" id="myTabtable" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active smart-btn rounded-pill me-4" id="home-tabtable" data-bs-toggle="tab" data-bs-target="#home-tab-panetable" type="button" role="tab" aria-controls="home-tab-panetable" aria-selected="true"><strong class="text-white fs-5 p-2">All Bets</strong></button>
+                        </li>
+                        <li class="nav-item " role="presentation">
+                          <button class="nav-link smart-btn rounded-pill" id="profile-tabtable" data-bs-toggle="tab" data-bs-target="#profile-tab-panetable" type="button" role="tab" aria-controls="profile-tab-panetable" aria-selected="false"><strong class="p-2 text-white fs-5">MyBets</strong></button>
+                        </li>
+                       
+                      </ul>
+                      <div class="tab-content mt-5" id="myTabContenttable">
+                        <div class="tab-pane fade show active" id="home-tab-panetable" role="tabpanel" aria-labelledby="home-tabtable" tabindex="0">
+                            <table class="table table-dark table-hover text-white">
+
+                                <thead>
+                                    <tr>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">DATE</th>
+                                        <th scope="col">AMOUNT</th>
+                                        <th scope="col">CURRENCY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-panetable" role="tabpanel" aria-labelledby="profile-tabtable" tabindex="0">
+                            <table class="table table-dark table-hover text-white">
+
+                                <thead>
+                                    <tr>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">DATE</th>
+                                        <th scope="col">AMOUNT</th>
+                                        <th scope="col">CURRENCY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Tom Bass
+                                        </th>
+                                        <td>Feb 20, 2021</td>
+                                        <td class="text-primary">$4990</td>
+                                        <td class="text-warning">Bitcoin</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+          <!-- Latest Transaction -->
+    <div class="why-choose-back pb-5">
+        <div class="container">
+            <div class="row text-white text-center ">
+                <div class="col Latest-margin-top">
+                    <div>
+                        <div>
+                            <strong class="fs-2">
+                                Latest Transaction
+                            </strong>
+                        </div>
+                        <div class="mt-3">
+                            We use the latest technologies and tools in order to create a better code that not only
+                            works
+                            <br>great, but it is easy easy to work with too.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- latest-part-2  -->
+
+
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col mt-5">
+
+                    <ul class="nav d-flex justify-content-center align-content-center" id="tablemyTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active smart-btn rounded-pill me-4" id="tablehome-tab" data-bs-toggle="tab" data-bs-target="#tablehome-tab-pane" type="button" role="tab" aria-controls="tablehome-tab-pane" aria-selected="true"><strong
+                            class="text-white fs-5 p-2">Daily</strong></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link smart-btn rounded-pill" id="tableprofile-tab" data-bs-toggle="tab" data-bs-target="#tableprofile-tab-pane" type="button" role="tab" aria-controls="tableprofile-tab-pane" aria-selected="false"><strong class="p-2 text-white fs-5">Monthly</strong></button>
+                        </li>
+                      
+                      </ul>
+                      <div class="tab-content mt-5" id="tablemyTabContent">
+                        <div class="tab-pane fade show active  table-latest overflow-auto" id="tablehome-tab-pane" role="tabpanel" aria-labelledby="tablehome-tab" tabindex="0">
+                            <table class="table table-dark table-hover text-white ">
+
+                                <thead>
+                                    <tr>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">PRICE</th>
+                                        <th scope="col">AMOUNT</th>
+                                        <th scope="col">DEPOSITED</th>
+                                        <th scope="col">CURRENCY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Jim Adams
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Willie Barton
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Kim Mccoy
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p4.png" alt="" class="start-invest-table">
+                                            Sheryl Tran
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Toby Davis
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Glenn lue
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Isreal Vandy
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade overflow-auto" id="tableprofile-tab-pane" role="tabpanel" aria-labelledby="tableprofile-tab" tabindex="0">
+                            <table class="table table-dark table-hover text-white ">
+
+                                <thead>
+                                    <tr>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">PRICE</th>
+                                        <th scope="col">AMOUNT</th>
+                                        <th scope="col">DEPOSITED</th>
+                                        <th scope="col">CURRENCY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Jim Adams
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Willie Barton
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Kim Mccoy
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p4.png" alt="" class="start-invest-table">
+                                            Sheryl Tran
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p1.png" alt="" class="start-invest-table">
+                                            Toby Davis
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p2.png" alt="" class="start-invest-table">
+                                            Glenn lue
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="./image/p3.png" alt="" class="start-invest-table">
+                                            Isreal Vandy
+                                        </th>
+                                        <td>$21.45</td>
+                                        <td class="text-primary">130% <i class="ri-arrow-up-line text-white"></i></td>
+                                        <td class="text-warning">576 </td>
+                                        <td class="">Bitcoin</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+ <!-- end-part  -->
+
+ <div class="end">
+    <div class="container">
+        <div class="row text-white end-margin-top">
+            <div class="col-12 col-md-12 col-lg-12 col-xl-4">
+                <div>
+                    <div>
+                        <strong class="fs-1">
+                            BINIOG
+                        </strong>
+                    </div> 
+                    <div class="mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nemo error sit voluptatem consectetur
+                        consectetur. Dolor nemo error sit voluptatem consectetur.
+                    </div>
+                   <div class="mt-4">
+                    <div class="input-group mb-3 w-100 h-100">
+                        <input type="text" class=" rounded-pill end-input" placeholder="  Enter Email to Subscribe" aria-label="Enter Email to Subscribe" aria-describedby="basic-addon2">
+                       <a href="#" class="text-decoration-none"> <span class="input-group-text end-telegram rounded-circle text-white position-relative" id="basic-addon2"><i class="ri-send-plane-fill"></i></span></a>
+                      </div>
+
+                      
+                   </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6 col-xl-4 ">
+                <div class="account-margin">
+                      <div>
+                        <strong class="fs-4">
+                            Account
+                        </strong>
+                      </div>
+                      <div class="end-dashed mt-2">
+                       <div class="end-profile">
+                        <i class="ri-arrow-right-double-line fs-5"></i>
+                        <span class="fs-5">Profile</span>
+                       </div>
+                      </div>
+                      <div class="end-dashed mt-2">
+                        <div class="end-profile">
+                         <i class="ri-arrow-right-double-line fs-5"></i>
+                         <span class="fs-5">Setting</span>
+                        </div>
+                       </div>
+                       <div class="end-dashed mt-2">
+                        <div class="end-profile">
+                         <i class="ri-arrow-right-double-line fs-5"></i>
+                         <span class="fs-5">Notification</span>
+                        </div>
+                       </div>
+                       <div class="end-dashed mt-2">
+                        <div class="end-profile">
+                         <i class="ri-arrow-right-double-line fs-5"></i>
+                         <span class="fs-5">Billing</span>
+                        </div>
+                       </div>
+                       <div class=" mt-2">
+                        <div class="end-profile">
+                         <i class="ri-arrow-right-double-line fs-5"></i>
+                         <span class="fs-5">Contact</span>
+                        </div>
+                       </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6 col-xl-4 ">
+                <div class="account-margin">
+                    <div>
+                      <strong class="fs-4">
+                          Company
+                      </strong>
+                    </div>
+                    <div class="end-dashed mt-2">
+                     <div class="end-profile">
+                      <i class="ri-arrow-right-double-line fs-5"></i>
+                      <span class="fs-5">Terms</span>
+                     </div>
+                    </div>
+                    <div class="end-dashed mt-2">
+                      <div class="end-profile">
+                       <i class="ri-arrow-right-double-line fs-5"></i>
+                       <span class="fs-5">Privacy</span>
+                      </div>
+                     </div>
+                     <div class="end-dashed mt-2">
+                      <div class="end-profile">
+                       <i class="ri-arrow-right-double-line fs-5"></i>
+                       <span class="fs-5">Security</span>
+                      </div>
+                     </div>
+                     <div class="end-dashed mt-2">
+                      <div class="end-profile">
+                       <i class="ri-arrow-right-double-line fs-5"></i>
+                       <span class="fs-5">Support</span>
+                      </div>
+                     </div>
+                     <div class="mt-2">
+                      <div class="end-profile">
+                       <i class="ri-arrow-right-double-line fs-5"></i>
+                       <span class="fs-5">Careers</span>
+                      </div>
+                     </div>
+              </div>
+            </div>
+        </div>
+       </div>
+  </div>
+
+  <!-- footer  -->
+<div class="footer-back">
+    <div class="container">
+        <div class="row p-4 ">
+            <div class="col d-lg-flex justify-content-between text-center">
+                <div class="text-white">
+                    Copyright © 2021. All Rights Reserved By GeniusDevs.
+                </div>
+                <div class="footer-icons">
+                    <div class="">
+                                            
+                        <span class="me-2">
+                           <a href="#" class="text-decoration-none text-white " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="ri-facebook-fill fs-5"></i></a>
+                        </span>
+
+                        <span class="me-2">
+                            <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i class="ri-twitter-fill fs-5"></i></a>
+                        </span>
+
+                        <span class="me-2">
+                            <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><i class="ri-linkedin-fill fs-5"></i></a>
+                        </span>
+
+                        <span class="me-2">
+                            <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="ri-instagram-line fs-5"></i></a>
+                        </span>
+                        <span class="me-2">
+                            <a href="#" class="text-decoration-none text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Pinterest"> <i class="ri-pinterest-line fs-5"></i></a>
+                        </span>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+ <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+ </script>
+</body>
+
+</html>

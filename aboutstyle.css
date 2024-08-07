@@ -1,0 +1,751 @@
+body {
+  background-color: #001232;
+}
+
+/* navbar  */
+.nav-background {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+}
+.nav-back {
+  background-color: #5406e0;
+}
+/* .nav-link:hover{
+  background-color:#874af0 ;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+
+} */
+.nav-link {
+  border: 1px solid transparent;
+}
+.nav-link:hover {
+  background-color: #874af0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+/* location  */
+.nav-background {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+}
+.back {
+  height: 15rem;
+}
+
+/* about  */
+.about-image img {
+  width: 70%;
+}
+.about-part-2-icon {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  width: 80px;
+  height: 80px;
+}
+.about-incon {
+  padding-top: 15px;
+}
+
+/* why-choose  */
+.why-choose-back {
+  background-color: #032055;
+}
+.why-margin-top {
+  margin-top: 130px;
+}
+
+/* why-choose-part */
+
+.why-part-back {
+  /* background: linear-gradient(#5406e0,rgb(135, 41, 226,0.8)); */
+  box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+    rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+  width: 80px;
+  height: 80px;
+}
+.why-part-back:hover {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+}
+.why-part-border {
+  box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+    rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+}
+.why-part-image-1 img {
+  width: 25rem;
+}
+.why-icon {
+  width: 100%;
+}
+
+/* end  */
+
+.end {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+}
+.end-margin-top {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.end-input {
+  width: 20rem;
+  background-color: #9352e9;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+.end-input::placeholder {
+  color: white;
+}
+.end-telegram {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  border: none;
+  position: absolute;
+  left: -40px;
+  top: 5px;
+}
+.end-dashed {
+  border-bottom: 3.5px dashed #9352e9;
+}
+.end-profile {
+  transition: margin-left 1s;
+}
+.end-profile:hover {
+  margin-left: 8px;
+}
+
+/* footer  */
+
+.footer-back {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+}
+
+/* 320 11111111111111111111111111111111111111111111111111111111111111 */
+@media (min-width: 10px) and (max-width: 320px) {
+  /* heading  */
+  .heading-margin-buttom {
+    padding-bottom: 180px;
+  }
+  .heading-heading {
+    font-size: 3rem;
+  }
+  .heading-input {
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+  .heading-input::placeholder {
+    color: white;
+  }
+  .submit-btn {
+    position: absolute;
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 35%;
+    /* height: 25%; */
+    left: 0%;
+    margin-top: 10px;
+    color: white;
+  }
+  .submit-btn:hover {
+    background-color: #7a38ec;
+    color: white;
+  }
+
+  /* cards  */
+  .card-1 {
+    background-color: #032055;
+    height: 350px;
+    width: 300px;
+    transition: margin-top 0.8s;
+    margin-top: 20px;
+  }
+
+  .card-1:hover {
+    background-color: #032055;
+    margin-top: -2%;
+    /* transition: all 0.3s ease-in; */
+  }
+
+  .card-1-background {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+  }
+
+  .card-1-background i {
+    width: 200px;
+    height: 400px;
+    /* padding-top: 150px; */
+  }
+  .card-margin-top {
+    margin-top: -12%;
+  }
+
+  /* about  */
+  .about-image img {
+    width: 70%;
+  }
+  .about-part-2-icon {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 70px;
+    height: 70px;
+  }
+  .about-incon {
+    padding-top: 15px;
+  }
+
+  /* why-choose-part */
+
+  .why-part-back {
+    /* background: linear-gradient(#5406e0,rgb(135, 41, 226,0.8)); */
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+    width: 80px;
+    height: 80px;
+  }
+  .why-part-back:hover {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .why-part-border {
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+  }
+  .why-part-image-1 img {
+    width: 20rem;
+    margin-left: -30px;
+  }
+
+  .why-icon {
+    width: 15rem;
+  }
+
+  /* daily weekly cards  */
+  .card-10 {
+    background-color: #032055;
+    transition: margin-top 0.8s;
+    margin-top: 20px;
+  }
+
+  .card-10:hover {
+    background-color: #032055;
+    margin-top: -2%;
+  }
+
+  /* how-cards  */
+  .card-111 {
+    background-color: #032055;
+    transition: margin-top 0.8s;
+    margin-top: 20px;
+  }
+  .card-111:hover {
+    background-color: #032055;
+    margin-top: -2%;
+  }
+
+  /* create better */
+
+  .create-back {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .create-btn {
+    color: #8e2de2;
+    margin-top: 30px;
+    width: 70%;
+  }
+  .create-btn:hover {
+    background-color: #4a00e0;
+    border: 2px solid white;
+    color: white;
+  }
+
+  /* our-top-10 */
+
+  .our-top-inventors-margin-top {
+    margin-top: 100px;
+  }
+  .top-ten-inventors {
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+    /* margin-left: 200px; */
+  }
+  .our-top-caro-card {
+    width: 17rem;
+    height: 22rem;
+    background-color: #032055;
+    margin-top: 30px;
+  }
+  .our-top-caro-img img {
+    width: 85%;
+    height: 70%;
+  }
+  /* what user  */
+
+  .what-back {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .what-margin-top {
+    margin-top: 100px;
+  }
+  .what-card {
+    background-color: #032055;
+    width: 20rem;
+    height: 19rem;
+  }
+  .what-image-1 img {
+    width: 70px;
+  }
+
+  /* tax and profit  */
+
+  .tax-cal-back-main {
+    background-color: #032055;
+    margin-top: 20px;
+  }
+  .tax-cal-back {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+
+  .tax-retail-back {
+    background-color: #032055;
+  }
+
+  .profit-back {
+    background-color: #032055;
+  }
+
+  /* faq  */
+
+  .faq-btn {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  /* latest-card */
+
+  .latest-card {
+    margin-top: 40px;
+  }
+
+  /* end  */
+
+  .end-telegram {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    border: none;
+    position: absolute;
+    left: 250px;
+    top: -40px;
+  }
+
+  /* footer-incons */
+  .footer-icons {
+    margin-top: 20px;
+  }
+}
+
+/* 576 222222222222222222222222222222222222222222222222222222222222222 */
+@media (min-width: 321px) and (max-width: 576px) {
+  /* heading  */
+  .heading-input {
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+  .heading-input::placeholder {
+    color: white;
+  }
+  .submit-btn {
+    position: absolute;
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 35%;
+    /* height: 25%; */
+    left: 0%;
+    margin-top: 10px;
+    color: white;
+  }
+  .submit-btn:hover {
+    background-color: #7a38ec;
+    color: white;
+  }
+
+  /* card  */
+  .card-1 {
+    background-color: #032055;
+    height: 350px;
+    width: 400px;
+    transition: margin-top 0.8s;
+    margin-top: 20px;
+  }
+
+  /* why  */
+
+  .why-icon {
+    width: 25rem;
+  }
+
+  /* daily weekly cards  */
+  .card-10 {
+    background-color: #032055;
+    transition: margin-top 0.8s;
+    margin-top: 20px;
+  }
+
+  .card-10:hover {
+    background-color: #032055;
+    margin-top: -2%;
+  }
+
+  /* how-cards  */
+  .card-111 {
+    background-color: #032055;
+    transition: margin-top 0.8s;
+    margin-top: 20px;
+  }
+  .card-111:hover {
+    background-color: #032055;
+    margin-top: -2%;
+  }
+  /* create better */
+
+  .create-back {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .create-btn {
+    color: #8e2de2;
+    margin-top: 30px;
+    width: 50%;
+  }
+  .create-btn:hover {
+    background-color: #4a00e0;
+    border: 2px solid white;
+    color: white;
+  }
+  /* our-top-10 */
+
+  .our-top-inventors-margin-top {
+    margin-top: 100px;
+  }
+  .top-ten-inventors {
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+    /* margin-left: 200px; */
+  }
+  .our-top-caro-card {
+    width: 17rem;
+    height: 22rem;
+    background-color: #032055;
+    margin-top: 30px;
+  }
+  .our-top-caro-img img {
+    width: 85%;
+    height: 70%;
+  }
+  /* tax and profit  */
+
+  .tax-cal-back-main {
+    background-color: #032055;
+    margin-top: 20px;
+  }
+  .tax-cal-back {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+
+  .tax-retail-back {
+    background-color: #032055;
+  }
+
+  .profit-back {
+    background-color: #032055;
+  }
+  /* faq  */
+
+  .faq-btn {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  /* latest-card */
+
+  .latest-card {
+    margin-top: 40px;
+  }
+
+  /* tax-profit  */
+  .tax-retail-back {
+    background-color: #032055;
+    width: 15rem;
+  }
+
+  /* account */
+  .account-margin {
+    margin-top: 20px;
+  }
+  /* footer-incons */
+  .footer-icons {
+    margin-top: 20px;
+  }
+
+  /* about  */
+  .about-incon {
+    padding-top: 15px;
+  }
+}
+
+/* 768 333333333333333333333333333333333333333333333333333333333333333 */
+@media (min-width: 578px) and (max-width: 768px) {
+  /* heading  */
+  .heading-input {
+    width: 55%;
+    outline: none;
+    border: none;
+  }
+  .heading-input::placeholder {
+    color: white;
+  }
+  .submit-btn {
+    position: absolute;
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 20%;
+    /* height: 25%; */
+    left: -20%;
+    color: white;
+  }
+  .submit-btn:hover {
+    background-color: #7a38ec;
+    color: white;
+  }
+
+  /* card  */
+  .card-1 {
+    background-color: #032055;
+    height: 380px;
+    width: 350px;
+    transition: margin-top 0.8s;
+    margin-top: 20px;
+  }
+  .card-1:hover {
+    background-color: #032055;
+    margin-top: -2%;
+    /* transition: all 0.3s ease-in; */
+  }
+
+  .card-1-background {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+  }
+
+  .card-1-background i {
+    width: 200px;
+    height: 400px;
+    /* padding-top: 150px; */
+  }
+  .card-margin-top {
+    margin-top: -12%;
+  }
+
+  /* why-choose-part */
+
+  .why-part-back {
+    /* background: linear-gradient(#5406e0,rgb(135, 41, 226,0.8)); */
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+    width: 80px;
+    height: 80px;
+  }
+  .why-part-back:hover {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .why-part-border {
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+  }
+  .why-part-image-1 img {
+    width: 20rem;
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+
+  .why-icon {
+    width: 43rem;
+  }
+
+  /* how-cards  */
+  .card-111 {
+    background-color: #032055;
+    transition: margin-top 0.8s;
+    height: 23rem;
+  }
+  .card-111:hover {
+    background-color: #032055;
+    margin-top: -2%;
+  }
+  .card-111-background {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+
+  /* create better */
+
+  .create-back {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .create-btn {
+    color: #8e2de2;
+    margin-top: 30px;
+    width: 50%;
+  }
+  .create-btn:hover {
+    background-color: #4a00e0;
+    border: 2px solid white;
+    color: white;
+  }
+
+  /* what user  */
+
+  .what-back {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .what-margin-top {
+    margin-top: 100px;
+  }
+  .what-card {
+    background-color: #032055;
+    width: 20rem;
+    height: 19rem;
+    /* margin-left: 3px; */
+    margin-top: 10px;
+  }
+  .what-image-1 img {
+    width: 70px;
+  }
+  /* faq  */
+
+  .faq-btn {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 30%;
+    margin-bottom: 40px;
+  }
+  /* latest-card */
+
+  .latest-card {
+    margin-top: 40px;
+  }
+
+  /* tax and profit  */
+
+  .tax-cal-back-main {
+    background-color: #032055;
+    margin-top: 20px;
+  }
+  /* account */
+  .account-margin {
+    margin-top: 20px;
+  }
+  /* footer-incons */
+  .footer-icons {
+    margin-top: 20px;
+  }
+  /* about  */
+  .about-incon {
+    padding-top: 15px;
+  }
+}
+
+/* 1024 444444444444444444444444444444444444444444444444444444444444444 */
+@media (min-width: 770px) and (max-width: 1024px) {
+  /* heading  */
+  .heading-input {
+    width: 75%;
+    outline: none;
+    border: none;
+  }
+  .heading-input::placeholder {
+    color: white;
+  }
+
+  /* card  */
+  .card-1 {
+    background-color: #032055;
+    height: 380px;
+    width: 300px;
+    transition: margin-top 0.8s;
+    margin-top: 20px;
+  }
+  /* why-choose-part */
+
+  .why-part-back {
+    /* background: linear-gradient(#5406e0,rgb(135, 41, 226,0.8)); */
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+    width: 80px;
+    height: 80px;
+  }
+  .why-part-back:hover {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .why-part-border {
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+  }
+  .why-part-image-1 img {
+    width: 20rem;
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+  .why-icon {
+    width: 100%;
+  }
+
+  /* our-top-10 */
+
+  .our-top-inventors-margin-top {
+    margin-top: 100px;
+  }
+  .top-ten-inventors {
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px,
+      rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+    /* margin-left: 200px; */
+  }
+  .our-top-caro-card {
+    width: 12rem;
+    height: 20rem;
+    background-color: #032055;
+  }
+  .our-top-caro-img img {
+    width: 85%;
+    height: 70%;
+  }
+  /* what user  */
+
+  .what-back {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  }
+  .what-margin-top {
+    margin-top: 100px;
+  }
+  .what-card {
+    background-color: #032055;
+    width: 18rem;
+    height: 19rem;
+    /* margin-left: 3px; */
+    margin-top: 10px;
+  }
+  .what-image-1 img {
+    width: 70px;
+  }
+  /* faq  */
+
+  .faq-btn {
+    background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+    width: 30%;
+  }
+  /* account */
+  .account-margin {
+    margin-top: 20px;
+  }
+  /* about  */
+  .about-incon {
+    padding-top: 15px;
+  }
+}
